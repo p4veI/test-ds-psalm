@@ -1,0 +1,30 @@
+{
+    "name": "p4vel/test-ds",
+    "autoload": {
+        "psr-4": {
+            "P4vel\\TestDs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Karfik",
+            "email": "pavel.karfik@cdn77.com"
+        }
+    ],
+    "require": {
+        "php-64bit": "^8.0",
+        "ext-ds": "*",
+        "vimeo/psalm": "^4.18"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.cdn77.eu"
+        }
+    ]
+}
